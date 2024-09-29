@@ -10,7 +10,8 @@
     column-gap: 22px;
 
     cursor: pointer;
-    color: #ADBFDF
+    color: #ADBFDF;
+    user-select: none;
 }
 
 .dateRangeSelector > div:hover {
