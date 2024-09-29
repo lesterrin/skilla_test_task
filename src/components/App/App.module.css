@@ -1,0 +1,7 @@
+.appWrapper{
+    margin: 80px 240px;
+
+    display:flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
