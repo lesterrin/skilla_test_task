@@ -8,7 +8,7 @@ import { DATE_FILTER_MODES, DateRangeType } from "shared/ui/CustomDateRangePicke
 import { formatDateToDDMMYYYY } from "shared/utils"
 import { useOutsideAlerter } from "shared/hooks/useOutsideClickDetecter"
 import { DateRangeCalendar } from "@mui/x-date-pickers-pro"
-import dayjs, { Dayjs } from "dayjs"
+import { Dayjs } from "dayjs"
 
 type DateFilterPropsType = {
   onChange: (params: DateRangeType) => void
@@ -162,8 +162,8 @@ export const CustomDateRangePicker: FC<DateFilterPropsType> = memo(({ onChange, 
             className={mode === DATE_FILTER_MODES.CUSTOM_RANGE ? styles.active : ""}
             onClick={() => setIsCalendarModalOpen(true)}
           >
-            <div>Указать даты</div>
-            <div className={styles.customRangeWrapper}>
+            <div className={styles.customRangeTitleWrapper}>Указать даты</div>
+            <div className={styles.customRangeDateWrapper}>
               <span>{selectorLabelValues[DATE_FILTER_MODES.CUSTOM_RANGE]}</span>
               <IconCalendar />
             </div>
