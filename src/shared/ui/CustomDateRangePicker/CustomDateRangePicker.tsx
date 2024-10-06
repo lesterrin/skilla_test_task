@@ -43,7 +43,7 @@ export const CustomDateRangePicker: FC<DateFilterPropsType> = memo(({ onChange, 
       const startsAt = new Date()
       const endsAt = new Date()
 
-      startsAt.setDate(startsAt.getDate() - selectedDays + 1)
+      startsAt.setDate(startsAt.getDate() - selectedDays)
       startsAt.setHours(0, 0, 0, 0)
 
       endsAt.setHours(23, 59, 59)
