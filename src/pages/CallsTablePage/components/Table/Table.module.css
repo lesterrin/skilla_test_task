@@ -1,0 +1,19 @@
+.tableWrapper {
+  border-radius: 8px;
+  padding: 24px 0 52px 0;
+  background-color: #ffffff;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table td:last-child {
+  padding-left: 0;
+  padding-right: var(--table-row-right-padding);
+}
+
+.table td:first-child {
+  padding-left: var(--table-row-left-padding);
+  padding-right: 0;
+}

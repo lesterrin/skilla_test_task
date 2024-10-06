@@ -1,0 +1,77 @@
+.dateRangeSelectorWrapper {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.dateRangeSelector {
+  display: flex;
+  align-items: center;
+  column-gap: 22px;
+
+  cursor: pointer;
+  color: #adbfdf;
+  user-select: none;
+}
+
+.dateRangeSelector > div:hover {
+  color: #002cfb;
+}
+
+.active {
+  background: #dee4ff;
+}
+
+.calendarModal {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  z-index: 1001;
+
+  box-shadow: 0 4px 20px 0 #00000014;
+  border-radius: 8px;
+
+  background-color: white;
+}
+
+.daysCounter {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.dateRangeSelectorDropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  z-index: 1000;
+
+  padding: 4px 0 4px 0;
+
+  border-radius: 8px;
+  background: white;
+
+  box-shadow: 0 4px 20px 0 #00000014;
+
+  list-style: none;
+}
+
+.dateRangeSelectorDropdown > li {
+  width: 204px;
+  padding: 6px 20px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+  color: #122945;
+}
+
+.dateRangeSelectorDropdown > li:hover {
+  background-color: #dee4ff;
+}
+
+.customRangeWrapper {
+  display: flex;
+  justify-content: space-between;
+  color: #adbfdf;
+}

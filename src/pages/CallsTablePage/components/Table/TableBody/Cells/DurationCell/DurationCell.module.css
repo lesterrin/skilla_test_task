@@ -1,0 +1,15 @@
+.duration {
+  margin: auto 0;
+  font-size: 15px;
+  line-height: 21px;
+
+  text-align: right;
+}
+
+.recordWrapper {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row-reverse;
+}

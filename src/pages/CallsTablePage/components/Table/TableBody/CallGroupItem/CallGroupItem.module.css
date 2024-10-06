@@ -1,0 +1,32 @@
+.tableRow {
+  height: 65px;
+  border-top: solid 1px #eaf0fa;
+}
+
+.tableRow:hover {
+  background-color: #d4dff32b;
+
+  cursor: pointer;
+}
+
+.dateHeaderContainer {
+  padding-bottom: 16px;
+
+  display: flex;
+  column-gap: 2px;
+}
+
+.paddingTop {
+  padding-top: 40px;
+}
+
+.date {
+  font-size: 15px;
+  line-height: 22px;
+  color: #122945;
+}
+
+.callCounter {
+  font-size: 12px;
+  color: #899cb1;
+}

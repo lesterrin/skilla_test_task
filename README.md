@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Getting Started with Create React CallsTablePage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with
+[Create React CallsTablePage](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -51,6 +52,6 @@ tool wouldn’t be useful if you couldn’t customize it when you are ready for 
 ## Learn More
 
 You can learn more in the
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Create React CallsTablePage documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
